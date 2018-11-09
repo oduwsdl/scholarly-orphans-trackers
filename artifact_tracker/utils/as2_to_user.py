@@ -71,8 +71,6 @@ def queue_tasks(message):
     # batch users in api request
     for portal_name in batch_queue:
         config = batch_queue.get(portal_name, {})
-        print("BATCHQ CONFIG")
-        print(config)
         tracker = import_module('artifact_tracker.tracker.{}'
                                 .format(portal_name))
         tracker.run.delay(**config)
