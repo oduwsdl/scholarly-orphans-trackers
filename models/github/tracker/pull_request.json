@@ -71,6 +71,7 @@
       "prov:Activity",
       "prov:SoftwareAgent"
     ],
+    "tracker:lastToken": "W/\"1f8c60fd0295dcdd85c430edef9f7114\"",
     "prov:used": [
       {
         "@id": "http://github.com/scholarlyorphans/trackers/github_tracker",
