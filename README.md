@@ -23,6 +23,24 @@ To add a new model or to edit an existing model, the following steps must be tak
 The RDF conversion and visualization helps keep the model and the graph simple as things can become very complex very fast.
 All of the existing models have been validated by performing the steps above, so any existing model can be used for comparison when creating any new model.
 
+# Usage
+
+## Build
+
+`$> docker-compose build`
+
+## Start
+
+`$> docker-compose up`
+
+## Stop
+
+`<CTRL+C>`
+
+Or
+
+`$> docker-compose down`
+
 # Collaborators
 
 Scholarly Orphans Trackers is a collaboration between the Prototyping Team of the Research Library of the Los Alamos National Laboratory and the Computer Science Department of Old Dominion University.
