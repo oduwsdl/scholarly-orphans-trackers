@@ -1,0 +1,79 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams#",
+    "http://mementoweb.org/test-ns#",
+    {
+      "tracker": "http://tracker.mementoweb.org/ns#"
+    }
+  ],
+  "event": {
+    "type": "Offer",
+    "to": "https://myresearch.institute/orchestrator/tracker/inbox/",
+    "tracker:eventBaseUrl": "https://myresearch.institute/tracker/event/",
+    "published": "2018-07-25T17:08:05Z",
+    "actor": {
+      "id": "https://myresearch.institute/",
+      "name": "My Research Institute's Orchestrator Process",
+      "type": "Application"
+    },
+    "object": {
+      "type": "Profile",
+      "describes": [
+        {
+          "type": "Person",
+          "id": "https://orcid.org/0000-0001-3412-1234",
+          "tracker:portals": {
+            "type": "Collection",
+            "totalItems": 4,
+            "items": [
+              {
+                "type": "Service",
+                "tracker:portal": {
+                  "name": "blogger",
+                  "tracker:username": "test_username",
+                  "tracker:userId": "1234",
+                  "tracker:lastTracked": "2015-02-10T15:04:55Z",
+                  "tracker:apiKey": "d23sfadw",
+                  "tracker:apiSecret": "hgj56fgfghehsgf",
+                  "tracker:portalUrl": "http://ws-dl.blogspot.com/"
+                }
+              },
+              {
+                "type": "Service",
+                "tracker:portal": {
+                  "name": "github",
+                  "tracker:username": "username4",
+                  "tracker:userId": "7512",
+                  "tracker:lastToken": "33a64df551425fcc55e4d42a148555d9f25f89d4",
+                  "tracker:lastTracked": "2015-02-10T15:04:55Z",
+                  "tracker:apiKey": "d23sfadw",
+                  "tracker:apiSecret": "hgj56fgfghehsgf"
+                }
+              },
+              {
+                "type": "Service",
+                "tracker:portal": {
+                  "name": "publons",
+                  "tracker:username": "username5",
+                  "tracker:userId": "3451123124142",
+                  "tracker:apiSecret": "hgj56fgfghehsgf",
+                  "tracker:lastTracked": "2015-02-10T15:04:55Z"
+                }
+              },
+              {
+                "type": "Service",
+                "tracker:portal": {
+                  "name": "wordpress",
+                  "tracker:username": "username6",
+                  "tracker:userId": "644545",
+                  "tracker:lastTracked": "2015-02-10T15:04:55Z",
+                  "tracker:portalUrl": "https://pager.wordpress.com/feed/"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

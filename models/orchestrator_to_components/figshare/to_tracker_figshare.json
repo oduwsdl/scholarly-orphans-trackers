@@ -1,0 +1,82 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams#",
+    "http://mementoweb.org/test-ns#",
+    {
+      "tracker": "http://tracker.mementoweb.org/ns#"
+    }
+  ],
+  "event": {
+    "type": "Offer",
+    "to": "https://myresearch.institute/orchestrator/tracker/inbox/",
+    "tracker:eventBaseUrl": "https://myresearch.institute/tracker/event/",
+    "published": "2018-07-25T17:08:05Z",
+    "actor": {
+      "id": "https://myresearch.institute/",
+      "name": "My Research Institute's Orchestrator Process",
+      "type": "Application"
+    },
+    "object": {
+      "type": "Profile",
+      "describes": [
+        {
+          "type": "Person",
+          "id": "https://orcid.org/0000-0001-3412-1234",
+          "tracker:portals": {
+            "type": "Collection",
+            "totalItems": 1,
+            "items": [
+              {
+                "type": "Service",
+                "tracker:portal": {
+                  "name": "figshare",
+                  "tracker:username": "username1",
+                  "tracker:userId": "75475658",
+                  "tracker:lastTracked": "2017-05-10T15:04:55Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "Person",
+          "id": "https://orcid.org/0000-0002-3412-0000",
+          "tracker:portals": {
+            "type": "Collection",
+            "totalItems": 1,
+            "items": [
+              {
+                "type": "Service",
+                "tracker:portal": {
+                  "name": "figshare",
+                  "tracker:username": "username2",
+                  "tracker:userId": "1255125121",
+                  "tracker:lastTracked": "2015-02-10T15:04:55Z"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "Person",
+          "id": "https://orcid.org/0000-0000-3412-5126",
+          "tracker:portals": {
+            "type": "Collection",
+            "totalItems": 1,
+            "items": [
+              {
+                "type": "Service",
+                "tracker:portal": {
+                  "name": "figshare",
+                  "tracker:username": "username3",
+                  "tracker:userId": "5321512352",
+                  "tracker:lastTracked": "2017-06-12T15:04:55Z"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
